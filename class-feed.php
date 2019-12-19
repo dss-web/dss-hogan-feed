@@ -168,7 +168,7 @@ if ( ! class_exists( '\\Dekode\\Hogan\\Feed' ) && class_exists( '\\Dekode\\Hogan
 						'width' => '50',
 					],
 					'label'         => __( 'Layout', 'dss-hogan-feed' ),
-					'default_value' => apply_filters( 'dss/hogan/module/feed/card', true ), // phpcs:ignore
+					'default_value' => apply_filters( 'dss/hogan/module/feed/layout', true ), // phpcs:ignore
 				],
 				[
 					'type'          => 'true_false',
